@@ -26,6 +26,7 @@ elif st.session_state["role"] == "Vendor":
     st.markdown("### Vendor Tools")
     st.markdown("Connect Stripe to receive payouts:")
     st.markdown("[Connect with Stripe](https://connect.stripe.com/oauth/authorize?response_type=code&client_id=ca_xxxxxx&scope=read_write)")
+    st.page_link("pages/vendor_calendar.py", label="Manage Availability")
 
 elif st.session_state["role"] == "Marina Admin":
     st.markdown("### Admin Tools")
