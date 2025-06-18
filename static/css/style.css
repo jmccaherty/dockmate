@@ -1,0 +1,10 @@
+body {
+    background-color: #e0f7fa;
+    font-family: "Segoe UI", sans-serif;
+    color: #013a63;
+}
+.stButton>button {
+    background-color: #0077b6;
+    color: white;
+    border-radius: 8px;
+}
